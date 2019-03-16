@@ -1,0 +1,26 @@
+.header__background{
+    background-image: url("../images/dumpdays_web/Page 1/final/header.a62ee423.jpg");
+    height: 877.02px;
+    width: 1451px;
+}
+.header__tittle{
+    display: block;
+    width: 903px;
+    margin: 0 auto;
+    padding: 30% 0;
+    color: #FFFFFF;
+}
+.tittle__main{
+    font-family: "Fuse V.2 Display";
+    font-size: 64px;
+    margin: 0 0 21px 0;
+    font-weight: 600;
+}
+.tittle__blue{
+    color: #30CEC2;
+}
+.tittle__date{
+    font-family: "Fuse V.2 Display";
+    font-size: 28px;
+    font-weight: normal;
+}
