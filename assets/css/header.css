@@ -1,7 +1,8 @@
 .header__background{
     background-image: url("../images/dumpdays_web/Page 1/final/header.a62ee423.jpg");
     height: 877.02px;
-    width: 1451px;
+    width: 100%;
+    background-size: cover;
 }
 .header__tittle{
     display: block;
