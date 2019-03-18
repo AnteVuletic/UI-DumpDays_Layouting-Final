@@ -3,10 +3,12 @@
     position: fixed;
     display: flex;
     flex-wrap: nowrap;
+    top: 0;
     justify-content: space-between;
     width: 100%;
     padding: 30px 150px;
     z-index: 3;
+    transition: padding 0.1s;
 }
 .navbar__logo{
     width: 196px;
@@ -39,6 +41,10 @@
 }
 .navigation__icons{
     display: none;
+}
+.navbar--scrolled{
+    background-color: #1F3C44;
+    padding: 15px 150px;
 }
 @media screen and (max-width: 1240px){
     .navbar{
