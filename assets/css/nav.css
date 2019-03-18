@@ -48,7 +48,7 @@
 }
 @media screen and (max-width: 1240px){
     .navbar{
-        padding: 0 30px;
+        padding: 16px 30px;
     }
 }
 @media screen and (max-width: 1024px){
@@ -63,7 +63,7 @@
         display: block;
         height: 50px;
         width: 50px;
-        margin-top: 25px;
+        margin-top: 15px;
         margin-right: 15px;
     }
     div.navigation__hamburger--clicked span:nth-child(1){
@@ -75,7 +75,7 @@
     }
     div.navigation__hamburger--clicked span:nth-child(3){
         transform: rotate(45deg);
-        margin: 0;
+        margin-top: -4px;
     }
     .hamburger__span{
         display: block;
@@ -129,9 +129,6 @@
         top: 0;
         left: 0;
     }
-    .navbar__logo{
-        margin-top: 25px;
-    }
 }
 @media screen and (max-width: 768px){
     .navigation__button > a{
@@ -141,8 +138,10 @@
 }
 @media screen and (max-width: 500px){
     div.navigation__hamburger--clicked span:nth-child(1){
-        transform: rotate(-45deg);
         margin: 5px 0 -5% 0;
+    }
+    div.navigation__hamburger--clicked span:nth-child(3){
+        margin-top: -1px;
     }
     .navbar{
         background-color: #1F3C44;
