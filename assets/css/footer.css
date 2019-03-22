@@ -1,0 +1,321 @@
+footer{
+width:100%;
+max-width:800px;    
+padding:0;
+margin-left:100px;
+font-family:Text,sans-serif;
+}
+
+.section__newsletter{width:100%;
+max-width:600px;
+padding-left:400px;color:#193b44;
+margin-left:140px;}
+
+.section__newsletter h1 {
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: 1px;
+    color: #1a3b43;
+    position: relative;
+display:block;
+font-size:54px;
+margin-left:40px;}
+
+.section__newsletter p {
+    font-size:18px;
+    font-weight: 300;
+    
+}
+
+.input{position: relative;
+    max-width: 200px;
+    width: 100%;
+    padding:15px 190px 15px 10px;
+margin-left:-40px;
+margin-top:15px;
+border:none;
+background-color:rgb(228, 215, 215);}
+
+.input::placeholder{font-size:16px;}
+
+.signup{background-color:#1a3b43;
+color:white;
+padding:10px;
+font-weight:900;
+border:none;
+border-radius:2px;
+margin-left:-5px;
+}
+
+
+.section__contacts{display:flex;
+width:1100px;
+margin-left:150px;
+margin-top:40px;}
+
+.section__contacts--left{
+    padding:50px 100px;    
+    
+}
+
+.section__contacts--left h1 , .section__contacts--right h1
+{color:#30cec2;
+font-size:26px;
+font-weight:800;
+line-height:38px;
+letter-spacing:-0.3px;}
+
+.section__contacts--left p , .section__contacts--right p {font-size:18px;
+line-height:36px;}
+
+.section__contacts--left button, .section__contacts--right button {color:white;
+background-color:#30cec2;
+padding:10px 10px;
+font-weight:700;
+border:none;
+border-radius:12px;}
+
+.section__contacts--right{padding:26px 30px;
+    padding-right:400px;
+background-image:url("..//images/dumpdays_web/Page 1/final/pattern.png");
+width:1000px;
+height:440px;
+border-radius:14px;
+margin-top:30px;
+}
+
+.section__contacts--right img{width:320px;
+height:210px;
+position: relative;
+right:-600px;
+top:-540px;}
+
+
+.section__social{
+    margin-left:250px;
+    width:1100px;
+    display:flex;
+}
+
+.section__social img{width:40px;
+height:40px;
+padding-right:40px;
+margin-top:60px;}
+
+.footer__container{margin-left:250px;
+display:flex;
+width:1100px;
+margin-bottom:0px;}
+
+.footer__container h3 {font-size:12px;
+margin-top:30px;
+font-weight:200;}
+
+.link{margin-left:150px;
+margin-top:30px;
+display:flex;
+}
+
+.link a {text-decoration:none;
+color:grey;
+margin-right:20px;
+}
+
+
+@media screen and (max-width: 1240px)
+{
+
+    .section__social img {width:44px;
+    height:42px;}
+
+.section__newsletter h1{font-size:46px;}
+.section__newsletter p {font-size:20px;}
+
+.input::placeholder{font-size:18px;}
+.input{    padding:20px 200px 15px 20px;
+}
+
+.signup{padding:15px;}
+
+.section__contacts--right img{top:-570px;
+right:-580px;}
+.section__contacts--right{height:410px;}
+
+}
+
+@media screen and (max-width: 1024px)
+
+{
+.section__newsletter h1{font-size:50px;}
+.section__newsletter p {font-size:22px;}
+.input::placeholder{font-size:20px;}
+.input{padding:24px 250px 18px 24px;}
+.signup{font-size:18px;}
+
+.section__contacts{
+    margin-left:-10px;
+    margin-top:90px;
+justify-content: space-between;}
+
+.section__contacts--left h1 , .section__contacts--right h1{
+    font-size:38px;
+    line-height:40px;
+}
+
+.section__contacts--left p , .section__contacts--right p {
+    font-size:22px;
+    line-height: 38px;
+}
+
+.section__contacts--left button , .section__contacts--right button{
+    padding:15px 20px;
+    font-size:20px;
+    margin-top:30px;
+}
+.section__contacts--right{
+    margin-left:90px;
+    width:600px;
+    height:456px;
+}
+
+.section__contacts--right h1{padding-right:60px;}
+.section__contacts--right img{
+    width:380px;
+    height:420px;
+    right:-540px;
+    top:-550px;}
+
+    .section__social{margin-left:80px;}
+    .section__social img{
+        width:65px;
+        height:65px;
+    }
+.footer__container{margin-left:80px;
+margin-bottom:0px;}
+
+.footer__container h3 {font-size:16px;
+    margin-top:40px;
+}
+    
+    .link{margin-left:250px;
+    margin-top:40px;
+    font-size:22px;
+
+    }
+    
+    .link a {
+    margin-right:30px;
+    }
+}
+
+
+@media screen and (max-width: 768px)
+{
+    .section__newsletter h1{font-size:54px;}
+    .section__newsletter p{font-size:26px;}
+  .section__newsletter{max-width:800px;
+margin-left:-100px;}
+    .input::placeholder{font-size:26px;}
+    .input{padding:36px 400px 22px 28px;
+    margin-left:-100px;}
+    .signup{font-size:24px;
+    padding:21px;}
+
+    .section__contacts{flex-direction:column-reverse;
+    margin-top:100px;}
+    .section__contacts--left h1 , .section__contacts--right h1{
+font-size:42px;}
+.section__contacts--left p , .section__contacts--right p{
+font-size:24px;
+}
+
+.section__contacts--right{
+    margin-left:0px;width:750px;
+height:520px;
+padding-top:50px;
+padding-left:40px;}
+
+.section__contacts--right button{
+    position:relative;
+    top:-480px;
+    padding:22px;
+    font-size:23px;
+}
+.section__contacts--right h1, .section__contacts--right p{padding-right:250px;}
+
+.section__contacts--right img{
+    height:570px;
+    right:-530px;
+    top:-400px;
+}
+
+.section__contacts--left{
+    padding:60px 50px; 
+    height:350px;       
+}
+
+.section__contacts--left button {
+    margin-top:40px;
+    padding:22px;
+    font-size:23px;
+}
+
+.section__contacts--left h1, .section__contacts--left p {padding-right:600px;}
+.section__social{margin-left:50px;}
+.footer__container{
+    flex-direction:column-reverse;
+}
+.footer__container h3 {font-size:26px;
+margin-left:-20px;}
+.link{margin-top:20px;
+margin-left:-20px;
+font-size:30px;}
+
+
+
+}
+
+@media screen and (max-width: 500px)
+{
+    .section__newsletter h1{font-size:62px;}
+    .section__newsletter p{font-size:34px;
+    margin:40px 0px 60px -80px;}
+  .section__newsletter{width:1400px;
+margin-left:-120px;}
+    .input::placeholder{font-size:30px;}
+    .input{padding:40px 400px 26px 30px;
+        margin-left:-130px;}
+    .signup{font-size:26px;
+    padding:22px;}  
+
+
+.section__contacts--right{ max-width:700px;
+    height:550px;
+    padding-top:45px;
+    padding-left:50px;
+    margin-top:170px;}
+
+}
+
+
+.section__contacts--right img{
+    height:600px;
+}
+
+.section__contacts--left h1 , .section__contacts--right h1{
+    font-size:68px;
+line-height: 60px;}
+    .section__contacts--left p , .section__contacts--right p{
+    font-size:34px;
+    }
+
+ .section__contacts--right button, .section__contacts--left button {padding:26px;
+font-size:26px;}   
+.section__social{margin-top:90px;}
+.section__social img{
+width:120px;
+height:120px;}
+}
+
+
+
