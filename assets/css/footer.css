@@ -67,20 +67,22 @@ footer {
     box-sizing: border-box;
     width: 30%;
   padding: 50px 100px;
+  
 }
 
 .section__contacts--left h1,
 .section__contacts--right h1 {
   color: #30cec2;
-  font-size: 26px;
+  font-size: 20px;
   font-weight: 600;
-  line-height: 38px;
+  line-height: 28px;
   letter-spacing: -0.3px;
+  
 }
 
 .section__contacts--left p,
 .section__contacts--right p {
-  font-size: 18px;
+  font-size: 12px;
   line-height: 36px;
   font-weight: normal;
 }
@@ -93,7 +95,7 @@ footer {
   font-weight: 700;
   border: none;
   border-radius: 12px;
-}
+  }
 
 .section__contacts--right {
     box-sizing: border-box;
@@ -103,6 +105,8 @@ footer {
   width: fit-content;
   border-radius: 14px;
   margin-top: 30px;
+  display:flex;
+  justify-content:space-between;
 }
 .right__images{
     position: relative;
@@ -130,8 +134,8 @@ footer {
 }
 
 .section__social img {
-  width: 40px;
-  height: 40px;
+  width: 20px;
+  height: 20px;
   padding-right: 40px;
   margin-top: 60px;
 }
@@ -184,7 +188,13 @@ footer {
   .signup {
     padding: 15px;
   }
+.images__background{width:50px;
+  height:50px;
+top:1580px; 
+left: 200px;
+}
 
+.right__images{}
   .section__contacts--right img {
     top: -570px;
     right: -580px;
@@ -192,6 +202,21 @@ footer {
   .section__contacts--right {
     height: 410px;
   }
+
+
+  .section__contacts--left h1 {font-size:2px;}
+
+  .images__person {
+    width: 320px;
+    height: 210px;
+    
+    right: -100px;
+    top: 5px;
+  }
+
+
+
+
 }
 
 @media screen and (max-width: 1024px) {
@@ -217,15 +242,18 @@ footer {
     justify-content: space-between;
   }
 
+  .images__background{top:400px;
+  position:absolute;}
+
   .section__contacts--left h1,
   .section__contacts--right h1 {
-    font-size: 38px;
+    font-size: 28px;
     line-height: 40px;
   }
 
   .section__contacts--left p,
   .section__contacts--right p {
-    font-size: 22px;
+    font-size: 18px;
     line-height: 38px;
   }
 
@@ -334,41 +362,51 @@ footer {
   }
   .section__contacts--left h1,
   .section__contacts--right h1 {
-    font-size: 42px;
+    font-size: 32px;
   }
   .section__contacts--left p,
   .section__contacts--right p {
-    font-size: 24px;
+    font-size: 20px;
   }
 
   .section__contacts--right {
     margin-left: 0px;
-    width: 750px;
-    height: 520px;
+    width: 150px;
+    height: 120px;
     padding-top: 50px;
     padding-left: 40px;
   }
 
   .section__contacts--right button {
     position: relative;
-    top: -480px;
-    padding: 22px;
+    top: -20px;
+    padding: 16px;
     font-size: 23px;
   }
+
+.right__text{width:520px;
+height:50px;
+margin-top:-180px;}
+.images__person{width:120px;
+height:120px;
+right: -630px;
+    top: -600px;}
+
+.images__background{width:200px;
+height:50px;}
+
   .section__contacts--right h1,
   .section__contacts--right p {
     padding-right: 250px;
   }
 
-  .section__contacts--right img {
-    height: 570px;
-    right: -530px;
-    top: -400px;
-  }
+  
 
   .section__contacts--left {
-    padding: 60px 50px;
-    height: 350px;
+    margin-top:120px;
+    margin-left:-40px;
+    height: 15px;
+    width:450px;
   }
 
   .section__contacts--left button {
@@ -382,19 +420,24 @@ footer {
     padding-right: 600px;
   }
   .section__social {
+    margin-top:540px;
     margin-left: 50px;
   }
+
+  .section__social img{width:42px;
+  height:42px;}
+
   .footer__container {
     flex-direction: column-reverse;
   }
   .footer__container h3 {
-    font-size: 26px;
-    margin-left: -20px;
+    font-size: 18px;
+    margin-left:-40px;
   }
   .link {
-    margin-top: 20px;
-    margin-left: -20px;
-    font-size: 30px;
+    margin-top: 16px;
+    margin-left: -40px;
+    font-size: 28px;
   }
 }
 
