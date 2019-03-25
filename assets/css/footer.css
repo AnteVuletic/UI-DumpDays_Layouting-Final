@@ -242,8 +242,6 @@ footer {
   margin-top:20px;
 }
 
-
-
   .section__social {
     margin-left: 60px;
   }
@@ -308,9 +306,9 @@ footer {
     
   }
   .section__contacts {
-flex-direction:column-reverse;
-width:800px;
-margin-top:50px;
+  flex-direction:column-reverse;
+  width:100%;
+  margin-top:50px;
 
   }
 .contacts__right{
