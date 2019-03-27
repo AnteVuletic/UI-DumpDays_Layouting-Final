@@ -101,6 +101,7 @@ div.section__images img:nth-child(2){
     font-family: sans-serif;
     font-size: 19px;
     line-height: 35px;
+    margin: 0;
 }
 .promotion__section--naslov{
     margin-top: 100px;
@@ -109,6 +110,7 @@ div.section__images img:nth-child(2){
     font-size: 50px;
     font-weight: 600;
     text-transform: uppercase;
+    margin: 0;
 }
 .section__text{
     width: 60%;
@@ -122,12 +124,35 @@ div.section__images img:nth-child(2){
     height: 125%;
 }
 .promotion__section--predavanja .section__text{
-    padding: 100px 200px 0 100px;
+    position: relative;
+    padding: 225px 250px 0 200px;   
+}
+.promotion__section--predavanja::before{
+    content: "16";
+    font-family: "Fuse V.2 Display";
+    font-weight: 600;
+    position: absolute;
+    bottom: 23%;
+    right: 35%;
+    font-size: 200px;
+    opacity: .16;
+    color: #3c5860;
 }
 .promotion__section--panel .section__text{
     position: relative;
     height: fit-content;
-    padding: 17% 20% 0 0;
+    padding: 25% 31% 0 0;
+}
+.promotion__section--panel::before{
+    content: "2";
+    font-family: "Fuse V.2 Display";
+    font-weight: 600;
+    position: absolute;
+    bottom: 0;
+    left: 37%;
+    font-size: 200px;
+    opacity: .5;
+    color: #3c5860;
 }
 .section__background{
     position: absolute;
@@ -155,6 +180,9 @@ div.section__images img:nth-child(2){
 .promotion__section--izlozba{
     background-color: #1a3b43;
 }
+.promotion__section--izlozba .section__text{
+    padding: 200px 280px 200px 200px;
+}
 .promotion__section--networking .section__images{
     margin-top: -200px;
 }
@@ -177,10 +205,20 @@ div.section__images img:nth-child(2){
     width: 65%;
     margin-left: 25%;
 }
+.images__predavac{
+    height: 120% !important;
+    width: 120% !important;
+}
+.section__images--predavac{
+    top: -50px;
+}
 
 @media screen and (max-width: 1024px){
-    .section__text--naslov p{
-        padding: 10px 160px 0 10px !important;
+    .promotion__section--panel::before{
+        bottom: 37%;
+    }
+    .promotion__section--predavanja .section__text{
+        padding: 100px;
     }
     .section__text--naslov{
         width: 70%;
@@ -213,7 +251,7 @@ div.section__images img:nth-child(2){
         padding: 5% 3% 5% 5%;
     }
     .promotion__section--izlozba .section__text{
-        padding: 0 125px;
+        padding: 90px 125px;
     }
     .promotion__section--networking .section__images{
         margin-top: -80px;
@@ -227,6 +265,23 @@ div.section__images img:nth-child(2){
     }
 }
 @media screen and (max-width: 768px){
+    .promotion__section--predavanja::before{
+        font-size: 140px;
+        bottom: 14%;
+        right: 41%;    
+    }
+    .promotion__section--panel::before{
+        font-size: 140px;
+        bottom: 20%;
+        left: 33%;
+    }
+    .promotion__section--panel .section__text{
+        padding: 15% 3% 5% 5%;
+    }
+    .images__predavac{
+        width: 80% !important;
+        height: 80% !important;
+    }
     .section__text h1{
         font-size: 40px !important;
     }
@@ -252,7 +307,7 @@ div.section__images img:nth-child(2){
         line-height: 160%;
     }
     .promotion__section--predavanja .section__text{
-        padding: 0 50px;
+        padding: 40px 50px;
     }
     .promotion__section--radionice .section__text{
         padding: 0 50px;
@@ -268,6 +323,23 @@ div.section__images img:nth-child(2){
     }
 }
 @media screen and (max-width: 500px){
+    .section__images--predavac .images__mask{
+        right: 63%;
+        width: 54%;
+        height: 125%;
+    }
+    .promotion__section--predavanja::before{
+        bottom: 2%;
+    }
+    .promotion__section--panel::before{
+        bottom: 15%;
+        left: 12%;
+    }
+    .section__images--predavac{
+        width: 100% !important;
+        height: 100% !important;
+        top: 0;
+    }
     .promotion__section--naslov .section__images{
         display: none;
     }
@@ -297,7 +369,7 @@ div.section__images img:nth-child(2){
     }
     .promotion__section--predavanja .section__text{
         width: 80%;
-        padding: 0 37px;
+        padding: 30px 37px 0 37px;
         margin-left: auto;
     }
     .promotion__section--radionice .section__text{
