@@ -1,0 +1,710 @@
+.section__sponsors{
+width:100%;
+max-width:1150px;
+margin:auto;
+font-family:"Fuse V.2 Display";
+margin-left:200px;
+
+}
+
+.section__generalsponsors{
+    display:flex;
+justify-content: space-around;
+}
+
+.generalsponsors--pictures{
+    width:50%;
+}
+
+
+.generalsponsors--title{
+    width:75%;
+
+}
+
+.general__title{
+    position:relative;
+      
+}
+
+
+.general__title h1{
+    font-size:56px;
+    font-weight:600;
+    color:white;
+    background-color:#1a3b43;
+    border-radius:10px;
+    padding:5px 12px;
+    width:90%;
+    letter-spacing:2px;
+    text-transform: uppercase;
+}
+
+
+.general__title div{
+    position:absolute;
+    z-index: -1;
+    overflow:hidden;
+    top:10px;
+    left:40px;
+    border-radius:12px;
+
+}
+
+.title--narrow{width:28%;
+margin-top:-22px;}
+
+.title--wide{width:90%;}
+
+.title--wide div{
+    width: 370px;
+    height: 98px;
+}
+
+.title--narrow div{
+    width:125px;
+    height:85px;
+}
+
+
+
+.generalsponsors--about{
+    width:36%;
+}
+
+
+
+.generalsponsors--pictures img{
+    margin-top:20px;
+    width:450px;
+    height:320px;
+    
+}
+
+ h1 {
+    font-size:56px;
+    font-weight:600;
+    color:#1a3b43;
+}
+
+.generalsponsors--about img{
+    width:270px;
+    height:65px;
+    padding-bottom:20px;
+}
+
+.generalsponsors--about p{
+    font-weight:normal;
+    font-size:15px;
+    color:rgb(159, 150, 150);
+    line-height:30px;
+}
+
+
+.sponsor__golden--about{
+    display:flex;
+    }
+
+.sponsor__golden{
+    padding-top:75px;
+    
+}
+.sponsor__golden div{
+    width:100%;
+}
+
+.sponsor__golden h1 , .sponsor__silver h1, .sponsor__bronze h1{
+    font-size:52px;
+    color:#30cec2;
+    font-weight:600;
+    padding-left:380px;
+    margin-bottom:-10px;
+    
+}
+
+figure{
+    width:80%;
+    
+}
+
+figure img{
+    width:190px;
+    height:120px;
+}
+
+
+.project__image{
+    width:300px;
+    height:240px;
+    border-radius:10px;
+}
+
+figure p{
+    color:rgb(159, 150, 150);
+    font-size:14px;
+    line-height:24px;
+}
+
+.sponsor__silver{
+    padding-top:40px;
+}
+
+.sponsor__silver h1{
+font-size:46px;
+margin-left:-50px;
+
+}
+
+.sponsor__silver--pictures{
+    width:90%;
+    padding:20px 0px 40px 20px;    
+    display:flex;
+    flex-wrap:wrap;
+
+}
+
+.sponsor__silver--pictures img{
+    width:220px;
+    height:100px;
+    padding-right:20px;
+}
+
+.ambeslogo{
+    padding-left:240px;
+}
+
+
+
+.sponsor__bronze h1{
+    font-size:34px;
+    margin-left:-20px;
+}
+
+
+.sponsor__bronze--pictures{
+    display:flex;
+    justify-content:center;
+    width:100%;
+    margin-top:20px;
+    margin-left:-30px;
+
+}
+
+.sponsor__bronze img{
+    width:170px;
+    height:80px;
+}
+
+.sponsor__media h1 , .sponsor__organisation h1 {
+    font-size:46px;
+    color:#30cec2;
+    font-weight:600;
+    padding-left:190px;
+    margin-top:50px;
+}
+.sponsor__media{
+    width:100%;
+}
+
+.sponsor__media--pictures{
+  display:flex;
+    justify-content: center;
+    margin-left:-50px; 
+}
+.sponsor__media img{
+    width:240px;
+    height:130px;
+    margin:-45px 0px 10px 0px;
+    
+}
+
+.sponsor__organisation h1{
+    padding-left:280px;
+}
+
+
+.sponsor__organisation{
+    width:100%;
+}
+.sponsor__organisation--pictures{
+    display:flex;
+    justify-content: center;
+}
+
+.sponsor__organisation img {
+    width:260px;
+    margin-top:-40px;
+}
+
+
+.partner--cro h1{
+    font-size:42px;
+    color:#30cec2;
+    font-weight:600;
+    padding-left:430px;
+    padding-top:20px;
+}
+
+.partner--cro img, .foodanddrink img {
+    padding-left:380px;
+    margin-top:-50px;
+    width:300px;
+    height:120px;
+}
+
+
+.mediapartner h1, .foodanddrink h1, .friends h1 {
+    font-size:32px;
+    color:#30cec2;
+    font-weight:600;
+    padding-left:360px;
+    padding-top:25px;
+}
+.mediapartner img {
+    width:110px;
+    height:40px;
+    padding-left:20px;
+}
+
+.mediapartner--pictures{
+    padding-left: 400px;  
+    padding-bottom:40px;  
+}
+
+
+.foodanddrink h1, .friends h1 {
+    padding-left:450px;
+}
+
+.friends img{
+    width:135px;
+    height:80px;
+    padding-right:38px;
+}
+.friends-pictures{
+    width:105%;
+    padding-left:20px;
+    
+    display:flex;
+    flex-wrap:wrap;
+}
+
+
+@media screen and (max-width: 1240px) {
+    
+    .section__sponsors{
+        margin-left:100px;
+        width:80%;
+    }
+    .generalsponsors--about{
+        width:38%;
+    }
+
+    .generalsponsors--about p{
+        font-size:16px;
+    }
+
+.section__generalsponsors{
+justify-content: space-between;
+}
+
+.generalsponsors--pictures{
+width:45%;
+}
+
+.title--wide{width:120%;
+
+}
+
+.title--narrow{width:40%;}
+.sponsor__golden{
+    margin-top:-50px;
+}
+
+.sponsor__golden--about{
+    margin-left:-40px;
+}    
+
+.sponsor__media{
+    font-size:46px;
+}
+
+.sponsor__media img{
+    padding-left:140px;
+}
+
+.sponsor__silver--pictures{
+    width:100%;
+}
+
+}
+
+@media screen and (max-width: 1024px) {
+
+.section__sponsors{
+    width:100%;
+    margin-left:60px;
+}    
+
+.general__title{
+width:140%;
+}
+.general__title h1{
+    font-size:60px;
+}
+.title--wide{
+    width:410px;
+}
+
+.title--narrow{
+    width:130px;
+}
+
+.title--wide div{
+    height:100px;
+    width:380px;
+}
+
+.title--narrow div{
+    height:90px;
+}
+
+.sponsor__silver--pictures{
+    width:100%;
+    margin-left:60px;
+}
+
+.sponsor__silver--pictures img{
+    height:120px;
+    width:280px;
+}
+
+.ambeslogo{
+    margin-left:-80px;
+}
+
+.sponsor__media--pictures img{
+    margin-left:-60px;
+}
+.sponsor__media{
+    margin-left:-20px;
+}
+
+.friends-pictures{
+    width:100%;
+    justify-content: center;
+}
+.friends img{
+    width:165;
+    height:90px;
+}
+
+}  
+
+
+
+@media screen and (max-width: 825px) {
+.section__generalsponsors{
+flex-direction:column;
+
+}
+
+
+.generalsponsors--pictures img{
+    margin-top:20px;
+    width:950px;
+    height:820px;
+    
+}
+
+.generalsponsors--about img{
+    width:370px;
+    height:75px;
+    padding-bottom:20px;
+    padding-left:300px;
+}
+
+.generalsponsors--about p{
+    font-size:20px;
+       line-height:32px;
+       width:320%;
+}
+.sponsor__golden h1{
+    padding-left:300px;
+}
+
+.sponsor__silver{
+    width:140%;
+}
+
+.sponsor__bronze--pictures{
+margin-left:-80px;
+width:150%;
+}
+.sponsor__bronze h1{
+    margin-left:-180px;
+}
+
+.sponsor__media , .sponsor__organisation{
+    width:150%;
+}
+
+.sponsor__media h1{
+    font-size:50px;
+}
+.sponsor__media img{
+    width:300px;
+    height:170px;
+    padding-left:100px;
+}
+
+.sponsor__organisation h1 {
+font-size:52px;
+padding-left:200px;
+}
+.sponsor__organisation--pictures img{
+    width:350px;
+    padding-bottom:60px;
+}
+
+
+.partner--cro h1{
+font-size:50px;
+padding-left:400px;
+padding-top:20px;
+}
+
+.partner--cro img{
+    width:350px;
+    height:140px;
+    padding-left:330px;
+    padding-bottom:60px;
+}
+
+.mediapartner h1{
+font-size:38px;
+}
+
+.mediapartner img{
+    padding-bottom:60px;
+}
+.friends h1{
+font-size:38px;
+}
+.friends img{
+width:170px;
+height:100px;
+}
+.friends-pictures{
+    width:120%;
+    margin-left:40px;
+}
+
+
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .sponsor__golden--about{
+        flex-direction:column;
+    }
+
+    .generalsponsors--about p{
+        font-size:26px;
+    }
+    figure{
+        width:130%;
+        
+    }
+    
+    figure img{
+        width:410px;
+        height:210px;
+        margin-left:260px;
+    
+    }
+    figure p{
+        width:110%;
+    
+        font-size:26px;
+        line-height:36px;
+        width:105%;
+    
+    }
+    
+    .project__image{
+        width:720px;
+        height:400px;
+        margin-left:210px;
+    }
+    
+
+    .sponsor__silver--pictures{
+        width:80%;
+        justify-content: center;
+    }
+
+    .sponsor__silver h1{
+        font-size:68px;
+        width:100%;
+        margin-left:-140px;
+    }
+.ambeslogo{margin-left:-220px;}
+
+.sponsor__bronze h1{
+    font-size:54px;
+    width:100%;
+    margin-left:-90px;
+}
+
+
+.sponsor__media{
+    width:110%;
+    text-align:center;
+    margin-left:50px;
+    margin-top:10px;
+    }
+
+    .sponsor__media h1{
+        font-size:64px;
+    }
+
+.sponsor__media img{
+    padding-left:300px;
+    width:450px;
+    height:220px;
+}
+
+.sponsor__organisation{
+    margin-left:50px;
+}
+
+.mediapartner{
+    width:150%;
+    margin-left:40px;
+}
+
+.friends-pictures{
+    width:100%;
+    margin-left:170px;
+}
+
+
+
+}
+
+
+
+@media screen and (max-width: 500px) {
+    .generalsponsors--pictures img{
+        width:800px;
+        height:800px;
+    }
+.generalsponsors--about p{
+    width:500%;
+    font-size:36px;
+    line-height:40px;
+}
+.sponsor__golden h1{width:100%;}
+.project__image{
+    margin-left:50px;
+}
+
+figure{
+    width:110%;
+}
+
+
+figure img{
+    margin-left:260px;
+}
+figure p{
+    width:160%;
+    font-size:32px;
+    line-height:44px;
+}
+.sponsor__silver h1{
+    width:130%;
+    margin-left:-300px;
+}
+
+
+.sponsor__silver--pictures img{
+    width:400px;
+    height:200px;
+    padding-bottom:100px;
+}
+.sponsor__silver{
+    margin-left:140px;
+}
+
+
+
+.sponsor__bronze h1{
+    width:110%;
+}
+
+.sponsor__bronze--pictures{
+    margin-left:150px;
+}
+
+.sponsor__organisation h1, {
+font-size:70px;
+text-align: center;
+}
+.mediapartner h1, .partner--cro h1,{
+    font-size:70px;
+    width:250%;
+}
+.sponsor__media{
+    width:120%;
+}
+.sponsor__media h1{
+    width:100%;
+    font-size:45px;
+}
+.sponsor__media img{
+    margin-left:100px;
+}
+.partner--cro img{
+height:200px;
+}
+
+.sponsor__organisation--pictures{
+    display:flex;
+    flex-direction: column;
+    margin-left:300px;
+}
+
+.sponsor__organisation h1{
+    margin-left:100px;
+}
+
+.mediapartner img{
+    margin-left:-60px;
+}
+
+.friends img{
+width:360px;
+height:200px;
+
+}
+
+
+.friends-pictures{
+    width:180%;
+    margin-left:110px;
+}
+
+
+.foodanddrink h1{
+    width:100%;
+    font-size:50px;
+}
+
+
+}
+
+
+
