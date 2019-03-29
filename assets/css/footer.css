@@ -1,7 +1,6 @@
 footer {
   width: 100%;
   padding: 0;
-  margin-left: 100px;
   font-family: "Fuse V.2 Display";
   overflow: hidden;
 }
@@ -427,7 +426,7 @@ width:100%;
 }
 
 .images__person{
-right:0px;
+right:200px;
 }
 
 
