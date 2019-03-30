@@ -129,6 +129,7 @@
 
 .schedule__list--left h1 {
   font-size: 22px;
+  font-weight: bold;
   margin-top: 16px;
   margin-bottom: -5px;
   color: #193b44;
@@ -146,6 +147,8 @@
 .workshops {
   color: #30cec2;
   padding: 5x 0px;
+  font-size:22px;
+  font-weight:normal;
 }
 
 @media screen and (max-width: 1240px) {

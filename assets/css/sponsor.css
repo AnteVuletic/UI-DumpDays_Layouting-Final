@@ -288,25 +288,20 @@ justify-content: space-between;
 width:95%;
 }
 
-.generalsponsors--pictures{
-width:45%;
-}
-
 .title--wide{width:120%;
-
 }
 
 .title--narrow{width:40%;}
 .sponsor__golden{
     margin-top:40px;
-    width:70%;
+    width:56%;
 }
 .sponsor__golden h1{
     margin-left:-90px;
 }
 
 .sponsor__golden--about{
-    margin-left:-70px;
+margin-left:-70px;
 }    
 
 .sponsor__media{
@@ -345,7 +340,7 @@ margin-left:-70px;}
 
 .friends{
     margin-left:-40px;
-    width:145%;
+    width:115%;
 }
 
 }
@@ -365,14 +360,14 @@ margin-left:-70px;}
 width:140%;
 }
 .general__title h1{
-    font-size:60px;
+    font-size:56px;
 }
 .title--wide{
-    width:410px;
+    width:390px;
 }
 
 .title--narrow{
-    width:130px;
+    width:125px;
 }
 
 .sponsor__silver--pictures{
@@ -380,10 +375,9 @@ width:140%;
     margin-left:120px;
 }
 
-
 .sponsor__golden{
-    width:50%;
-    margin-left:38px;
+    width:35%;
+    margin-left:44px;
 }
 
 .project__image{
@@ -391,7 +385,7 @@ width:140%;
 height:200px;
 }
 .sponsor__golden h1{
-width:110%;
+width:150%;
 margin-left:-150px;
 
 }
@@ -400,7 +394,6 @@ margin-left:-150px;
 }
 .sponsor__bronze{
     margin-left:-40px;
-    width:100%;
 }
 
 .sponsor__media--pictures img{
@@ -418,102 +411,123 @@ margin-left:-150px;
     margin-left:-45px;
 }
 
-
 .friends-pictures{
-    width:80%;
+    width:90%;
     justify-content: center;
-    margin-left:120px;
-}
-.friends img{
-    width:165;
-    height:90px;
+    margin-left:40px;
 }
 }  
-
 
 
 @media screen and (max-width: 820px) {
 
 .sponsor__container{
-    width:110%;
+    width:80%;
 } 
 
 .section__sponsors{
-    width:64%;
+    width:90%;
 }
 .section__generalsponsors{
 flex-direction:column;
+width:60%;
 }  
+
+.general__title h1 {font-size:44px;}
+
+.title--wide {width:300px;}
+.title--narrow{ width:90px;}
+
+.title--wide div{
+    width:95%;
+}
+
+.title--narrow div{
+    width:90%;
+}
 
 .generalsponsors--pictures img{
     margin-top:20px;
-    width:950px;
+    width:800px;
     height:820px;    
 }
 
 .generalsponsors--about img{
-    width:370px;
-    height:75px;
-    padding: 0px 0px 20px 300px; 
+    width:270px;
+    height:55px;
+    padding: 0px 0px 20px 180px; 
     
 }
 
 .generalsponsors--about p{
-    font-size:20px;
-       line-height:32px;
+    font-size:14px;
+       line-height:28px;
        width:300%;
+}
+.generalsponsors--about h1{
+    font-size:34px;
 }
 
 figure p{
-font-size:20px;
+font-size:12px;
 line-height:30px;
 }
 
+figure{
+    width:90%;
+}
+
+.project__image{
+    width:200px;
+    height:140px;
+}
 
 .generalsponsors--about{
     width:50%;
 }
 .sponsor__golden h1{
-    padding-left:380px;
+margin-left:-200px;
+    width:200%;
+    font-size:34px;
 }
 
-.sponsor__golden{margin-top:120px;}
+.sponsor__golden{margin-top:120px;
+width:35%;}
 
 .sponsor__silver{
-    width:160%;
+    width:150%;
+    margin-left:-200px;
 }
 .sponsor__silver--pictures img{
-    width:280px;
-    height:100px;
-}
-.sponsor__silver--pictures{
-    margin-left:50px;
+    width:240px;
+    height:90px;
 }
 
 .sponsor__bronze--pictures{
-    width:140%;
+    width:120%;
+    margin-left: 40px;
 }
 
 .sponsor__media , .sponsor__organisation{
-    width:180%;
+    width:140%;
 }
 
 .sponsor__media h1{
-    font-size:50px;
-    margin-left:-60px;
+    font-size:40px;
+    margin-left:-80px;
 }
 .sponsor__media img{
-    width:300px;
-    height:170px;
-    padding-left:100px;
+    width:260px;
+    height:140px;
+    padding-left:50px;
 }
 
 .sponsor__organisation h1 {
-font-size:52px;
-margin-left:-60px;
+font-size:42px;
+margin-left:-130px;
 }
 .sponsor__organisation--pictures img{
-    width:350px;
+    width:250px;
 }
 
 .sponsor__organisation--pictures{
@@ -522,19 +536,20 @@ margin-left:-60px;
 
 .partner--cro{
     width:160%;
-    margin-left:-80px;
+    margin-left:-180px;
 }
 .partner--cro h1{
-font-size:50px;
+font-size:44px;
 }
 
 .partner--cro img{
-    width:350px;
+    width:300px;
     height:140px;
-    padding-left:40px;
+    padding-left:20px;
 }
 .mediapartner{
     width:140%;
+    margin-left:-160px;
 }
 .mediapartner h1{
 font-size:38px;
@@ -542,83 +557,105 @@ font-size:38px;
 
 .friends h1{
 font-size:38px;
+margin-left:-150px;
 }
 .friends img{
-width:170px;
+width:150px;
 height:100px;
 }
 .friends-pictures{
     width:120%;
-    margin-left:40px;
+    margin-left:-40px;
 }
+.foodanddrink{
+    margin-left:-180px;
+}
+
 }
 
 
 
 @media screen and (max-width: 768px) {
     .sponsor__container{
-        width:110%;
+        width:100%;
         box-sizing: border-box;
     }     
+
+    .section__sponsors{
+        width:90%;
+    }
 
     .sponsor__golden--about{
         flex-direction:column;
     }
     
     .generalsponsors--about p{
-        font-size:24px;
+        font-size:16px;
      }
+.generalsponsors--about h1{
+    font-size:34px;
+    width:250%;
+    margin-left:150px;
+}
+
+.title--wide div, .title--narrow div {
+    height:76px;
+}
+
     figure{
-        width:190%;        
+        width:260%;        
     }
     
     figure img{
-        width:410px;
-        height:210px;
-        margin-left:260px;
+        width:210px;
+        height:110px;
+        margin-left: 230px;
     
     }
-    figure p{
-        width:130%;    
-        font-size:24px;
-        line-height:36px;
+    figure p{    
+        font-size:14px;
+        line-height:26px;
         width:105%;    
     }
     
     .project__image{
-        width:580px;
-        height:400px;
-        margin-left:210px;
+        width:400px;
+        height:270px;
+        margin-left:140px;
     }
     
     .sponsor__silver--pictures{
-        width:80%;
-        margin-left:180px;
+        width:60%;
+        margin-left:200px;
     }
 
     .sponsor__silver h1{
-        font-size:68px;
-        margin-left:-110px;
+        font-size:48px;
+        margin-left:-50px;
     }
 .ambeslogo{margin-left:-240px;}
 
 .sponsor__bronze h1{
-    font-size:50px;
+    font-size:38px;
     width:100%;
-    margin-left:-90px;
+    margin-left:-150px;
+}
+
+.sponsor__bronze--pictures{
+    margin-left:80px;
+    width:80%;
 }
 
 .sponsor__media{
-    width:150%;
-    text-align:center;
-    margin-top:100px;
+    width:100%;
+    text-align:center; margin-left:-60px;
     }
 
  .sponsor__media h1{
-  font-size:58px;}
+  font-size:44px;}
 
 .sponsor__organisation{
-    margin-left:-80px;
+    margin:-20px 0px 0px -80px;
 }   
 
 .mediapartner{
@@ -626,11 +663,15 @@ height:100px;
 }
 
 .partner--cro, .mediapartner, .friends, .foodanddrink {
-    margin-left:-100px;
+    margin-left:-210px;
 }
 .friends-pictures{
-    width:100%;
-    margin-left:150px;
+    width:80%;
+    margin-left:210px;
+}
+
+.friends h1{
+    margin-left:0px;
 }
 
 }
@@ -639,119 +680,129 @@ height:100px;
 @media screen and (max-width: 500px) {
 
 .sponsor__container{
-        width:100%;
+        width:90%;
         box-sizing: border-box;
     } 
 
 .section__sponsors{
-        width:55%;
+        width:85%;
     }
 
 .generalsponsors--pictures img{
-        width:700px;
-        height:600px;
+        width:400px;
+        height:300px;
     }
 .generalsponsors--about p{
-    font-size:32px;
-    line-height:40px;
+    font-size:16px;
+    line-height:28px;
 }
 .generalsponsors--about img{
     margin-left:-120px;
 }
-.generalsponsors--about{width:80%;}
+.generalsponsors--about h1 {margin-left:0px;
+width:300%;}
 
 .sponsor__golden h1{width:220%;
-margin-left:-200px;}
+margin-left:-350px;}
 .project__image{
-    margin-left:60px;
-    width:130%;
+    margin-left:10px;
+    width:400px;
+    height:180px;
 }
 
 figure{
-    width:190%;
+    width:150%;
 }
 figure img{
-    margin-left:200px;
+    margin-left:80px;
 }
 
 figure p{
-    width:160%;
-    font-size:32px;
-    line-height:44px;
+    width:190%;
+    font-size:14px;
+    line-height:24px;
 }
 .sponsor__silver h1{
-    width:140%;
-    margin-left:-140px;
+    width:100%;
+    margin-left:-130px;
+    font-size:38px;
 }
 
 .sponsor__silver--pictures img{
-    width:400px;
-    height:200px;
-    padding-bottom:80px;
+    width:300px;
+    height:100px;
+    padding-bottom:40px;
+    margin-left:-40px;
 }
 
 .sponsor__bronze h1{
     width:180%;
-    margin-left:-180px;
+    margin-left:-290px;
 }
 
 .sponsor__bronze--pictures{
-    width:150%;
-    margin-left:220px;
+    width:100%;
+    margin-left:100px;
 }
 
 .sponsor__media h1, .partner--cro h1{
-    font-size:70px;
+    font-size:42px;
     width:160%;
-    margin-left:-110px;
+    margin-left:-250px;
 }
 
 .sponsor__media img{
-    margin-left:-100px;
+    margin-left:-160px;
 }
 
 .sponsor__organisation h1  {
-font-size:70px;
+font-size:42px;
 text-align: center;
-margin-left:-50px;
+margin-left:-230px;
 width:80%;
 }
 
 .sponsor__organisation--pictures{
     flex-direction: column;
-    margin-left:300px;
+    margin-left:150px;
 }
 
 .mediapartner h1 , .friends h1 {
-    font-size:50px;
+    font-size:30px;
     width:140%;
-    margin-left:-110px;
+    margin-left:-100px;
 }
 .mediapartner--pictures{
-    margin-left:-10px;
+    margin-left:-110px;
     width:80%;
 }
 
 .partner--cro img{
-height:200px;
-margin-left:-30px;
+height:180px;
+margin-left:240px;
 }
 
-.friends img{
-width:350px;
-height:120px;
+.partner--cro h1{
+    margin-left:-130px;
 }
+
 .friends h1{
-    margin-left:-60px;
+    margin-left:-110px;
 }
 
 .friends-pictures{
-    width:200%;
-    margin-left:110px;
+    width:100%;
+    margin-left:180px;
 }
 
 .foodanddrink h1{
     width:100%;
-    font-size:50px;
+    font-size:30px;
+    margin-left:-120px;
 }
+
+.foodanddrink img{
+    margin-left:260px;
+}
+
 }
